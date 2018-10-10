@@ -12,7 +12,7 @@ function getBestMovie(...movies){
 }
 
 function formatRatings(data){ 
- //Convert ratings to int and store them in arr
+ //Convert ratings to int
  //Create map with movie title and int rating
   const ratingsMap = new Map();
     data.forEach(function(movie){
